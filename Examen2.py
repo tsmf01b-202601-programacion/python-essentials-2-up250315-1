@@ -14,7 +14,8 @@ if problema == 1:
     front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     back_end = ['Node','Express', 'MongoDB']
     # Tu código aquí
-
+    full_stack = front_end + back_end
+    print(full_stack)
 elif problema == 2:
     # Problema 2 (Día 7 - Sets):
     # Del ejercicio de sets: Une los sets A y B (Unión).
@@ -22,13 +23,19 @@ elif problema == 2:
     A = {19, 22, 24, 20, 25, 26}
     B = {19, 22, 20, 25, 26, 24, 28, 27}
     # Tu código aquí
+    print(A.union(B))
 
 elif problema == 3:
     # Problema 3 (Día 10 - Loops):
     # Del ejercicio de bucles: Usa un ciclo 'for' para iterar de 0 a 100 
     # y suma solo los números impares. Imprime solo el resultado final.
     suma_impares = 0
-    # Tu código aquí
+    # Tu código aqu
+    suma_impares = 0
+    for i in range(101):
+        if i % 2 != 0:
+            suma_impares += i
+    print(suma_impares)
 
 elif problema == 4:
     # Problema 4 (Día 11 - Funciones):
@@ -36,6 +43,9 @@ elif problema == 4:
     # Debe recibir (celsius). Fórmula: (C * 9/5) + 32.
     # Llama a la función con 25 e imprime el resultado.
     # Tu código aquí
+    def convert_celsius_to_fahrenheit(celsius):
+      return (celsius * 9/5) + 32
+    print(convert_celsius_to_fahrenheit(25))
 
 else:
     print("Ingresa un número entre 1 y 4.")
