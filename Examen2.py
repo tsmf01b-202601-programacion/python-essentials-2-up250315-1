@@ -31,7 +31,10 @@ elif problema == 3:
     # y suma solo los números impares. Imprime solo el resultado final.
     suma_impares = 0
     # Tu código aqu
-    suma_impares += 0
+    suma_impares = 0
+    for i in range(101):
+        if i % 2 != 0:
+            suma_impares += i
     print(suma_impares)
 
 elif problema == 4:
