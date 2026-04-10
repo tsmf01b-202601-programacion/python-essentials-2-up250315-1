@@ -30,7 +30,8 @@ elif problema == 3:
     # Del ejercicio de bucles: Usa un ciclo 'for' para iterar de 0 a 100 
     # y suma solo los números impares. Imprime solo el resultado final.
     suma_impares = 0
-    # Tu código aquí
+    # Tu código aqu
+    suma_impares += 0
     print(suma_impares)
 
 elif problema == 4:
